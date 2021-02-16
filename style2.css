@@ -1,0 +1,130 @@
+body{
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 710px;
+    border:2px solid;
+
+  
+}
+
+.nav{
+    margin-top:5px;
+    display:flex;
+    gap: 770px;
+}
+.nav>p{
+    margin-left:10px;
+    border: 2px solid;
+
+}
+.nav>button{
+  padding: 5px;
+  height:90%;
+  margin-top: 15px;
+ 
+}   
+.sidebar{
+    max-width:100px;
+    background-color:grey;
+    color: white;
+ 
+}
+
+.container{
+    display:flex;
+
+}
+li a {
+    display: block;
+    width: 60px;
+    margin-top: 10px;
+    padding: 2px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+  }
+  
+  li a {
+    display: block;
+  }
+  .content{
+      display: flex;
+      gap:20px;
+
+
+  }
+  .square{
+      margin-left:30px;
+      width: 150px;
+      height:150px;
+     
+      background-color: aqua;
+  }
+  .square>h1{
+      text-align:center;
+      margin-top: 35%;
+  }
+  .middle{
+      margin-top: 30px;
+      margin-left: 30px;
+      display:flex;
+      gap:20px;
+      
+
+}
+.pic{
+    
+    width: 300px;
+    height: 300px;
+    background-color: yellowgreen;
+    flex-shrink: 0;
+
+       
+}
+.pic>h2{
+    text-align:center;
+
+
+}
+.cont{
+    flex-flow: wrap;
+    
+
+
+}
+.below{
+    margin-top:10px;
+    margin-left:30px;
+}
+input {
+    display: inline-block;
+    width: 16em;
+    
+    
+  }
+  
+  label {
+    display: inline-block;
+    width: 16em;
+    margin-right: .5em;
+    padding-top: .5em;
+    position: relative;
+  }
+  table,td,th{
+    border: 1px solid ;
+  }
+  table{
+      border-collapse: collapse;    
+      width:90%;
+  }
+  
+  .footer{
+      min-height:30px;
+  }
+  th, td {
+    padding: 10px;
+   
+  }
